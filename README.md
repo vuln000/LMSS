@@ -6,6 +6,7 @@
 目前仅完成了Linux版本：[`linux_check.sh`]
 
 Windows版本下工具较多，暂缓开发。
+
 ---
 
 ## 功能概览
@@ -98,20 +99,4 @@ sudo -i
 
 ### 依赖命令（大多为系统自带）
 - bash, awk, grep, ps, ss, find, dd, strings, tar, stat, md5sum, sha256sum, file
-
-### 可选命令
-- `lsb_release`：若缺失会自动兜底读取 `/etc/*release`
-
----
-
-## 安全声明
-
-- 本项目面向 **授权的应急响应/攻防演练** 场景，使用者需确保符合组织合规要求与法律法规。
-- 工具默认以只读采集为主，但 **Phase 1 会对 `/var/log` 进行打包并在当前目录落地压缩包**，请在取证流程中妥善管理该文件的权限与传输链路。
-
----
-
-## License
-
-建议将本项目以 MIT License 发布（如需我补充 LICENSE 文件可以继续说一声）。
 
