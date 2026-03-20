@@ -4,7 +4,8 @@
 基于https://github.com/vuln000/BlueTeamNote 笔记的经验，进行了一定的优化与完善。
 
 目前仅完成了Linux版本：[`linux_check.sh`]
-Windows版本下工具较多，暂缓。
+
+Windows版本下工具较多，暂缓开发。
 ---
 
 ## 功能概览
