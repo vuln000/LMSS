@@ -9,6 +9,14 @@ Windows版本下工具较多，暂缓开发。
 
 ---
 
+## [划重点] Linux上机排查时，一定要注意自身留痕，及时清理，可以使用以下命令避免被history记录。
+ ```bash
+unset HISTFILE HISTSIZE HISTLOG HISTORY HISTZONE
+export HISTFILE=/dev/null
+export HISTSIZE=0
+export HISTFILESIZE=0
+```
+
 ## 功能概览
 
 ### Phase 1：主机基础信息搜集（留档 + 日志打包）
